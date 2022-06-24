@@ -3035,8 +3035,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #0c81a5;
+  border-color: #0c81a5;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11495,15 +11495,26 @@ section #services li {
 section #services li div {
   width: 120px;
   height: 120px;
-  color: #275E96;
+  border-radius: 20px;
+  color: #fff;
   font-size: 3.4em;
   text-align: center;
   line-height: 120px;
-  background-color: #fff;
+  /* background-color: #fff; */
   transition: all 0.5s ease;
+  
+  
+  background: rgba(71, 104, 188, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 2px solid #275E96;
+
 }
+
 section #services li a {
-  color: #275E96;
+  color: #fff;
 }
 section #services li div:hover {
   transform: rotate(360deg);
